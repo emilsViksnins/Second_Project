@@ -7,7 +7,6 @@ import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { Page } from './interface/page';
 import { UserService } from './service/user.service';
 import { FormsModule } from '@angular/forms';
-import { LoadingService } from './loading.service';
 
 
 @Component({
@@ -20,6 +19,9 @@ import { LoadingService } from './loading.service';
   
 })
 export class AppComponent implements OnInit {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
 
   usersState$: Observable<{ appState: string, appData?: ApiResponse<Page>, error?: HttpErrorResponse }>;
   responseSubject = new BehaviorSubject<ApiResponse<Page>>(null);
@@ -31,7 +33,7 @@ export class AppComponent implements OnInit {
 
  
 
-  constructor( loadingService: LoadingService) {}
+  constructor() {}
 
   ngOnInit(): void {
     this.loadingService.loadingOn();
