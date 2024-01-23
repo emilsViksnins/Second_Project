@@ -20,7 +20,9 @@ For testing purposes, the Dump file also contains test users and passwords to lo
 - Categorizing of the students and theire status according the training schedgule.
 - Integration with a MySQL database for robust data retention.
 - Functionalities for reviewing and modifying the records.
-**NOTE** This project serves as a prototype for educational purposes. 
+**NOTE** This project serves as a prototype for educational purposes.
+  
+![Screenshot 2024-01-23 at 9 28 41 AM](https://github.com/emilsViksnins/Second_Project/assets/135007928/bb0e9a0d-7ea8-4619-9321-5c1773a36ef0)
 
 
 ## Technologies Used
