@@ -11,6 +11,7 @@ The students list application is a simple application for tracking and storing a
 
 ## Launch procedure
 - Git clone this repository locally.
+- StudentsListApp folder contains all Back_end code on Intellj.
 - Verify that MySQL is running on the target system.
 - Create a database: pagination and table: user. (All provided in MySQL Dump file called pagination_user.sql)
 For testing purposes, the Dump file also contains test users and passwords to log into the application. 
