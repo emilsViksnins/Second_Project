@@ -16,6 +16,9 @@ The students list application is a simple application for tracking and storing a
 For testing purposes, the Dump file also contains test users and passwords to log into the application. 
 **IMPORTANT** To successfully connect to the database, change the default password and username ("root") in the application.yml file to your MySQL password and username.
 
+  ![Screenshot 2024-01-23 at 9 31 36 AM](https://github.com/emilsViksnins/Second_Project/assets/135007928/a647195e-c8ae-4f76-b04b-236b0658e41e)
+
+
   ## Features
 - Categorizing of the students and theire status according the training schedgule.
 - Integration with a MySQL database for robust data retention.
