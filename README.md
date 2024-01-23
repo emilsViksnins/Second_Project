@@ -1,7 +1,7 @@
 # Students List Application
 
 ## Description
-The students list application is a simple application for trackinng and storing a records of ongoing people floww in training course, school or any other organization with manu paticepants at the same time.
+The students list application is a simple application for tracking and storing a records of ongoing people flow in training course, school or any other organization with manu paticepants at the same time.
 
 ## Prerequisites for launching
  - Maven
