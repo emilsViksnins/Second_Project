@@ -12,7 +12,7 @@ The students list application is a simple application for tracking and storing a
 ## Launch procedure
 - Git clone this repository locally.
 - Verify that MySQL is running on the target system.
-- Create a database: pagination and table: user. (All provided in MySQL Dump file)
+- Create a database: pagination and table: user. (All provided in MySQL Dump file called pagination_user.sql)
 For testing purposes, the Dump file also contains test users and passwords to log into the application. 
 **IMPORTANT** To successfully connect to the database, change the default password and username ("root") in the application.yml file to your MySQL password and username.
 
